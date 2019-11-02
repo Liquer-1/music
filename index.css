@@ -1,0 +1,278 @@
+html,body{
+    padding:0;
+    margin:0;
+    font-family: "微软雅黑";
+}
+#whole{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+#header{
+    margin: 0 0 0 0px;
+    padding: 0;
+    border: 0;
+    height: 100px;
+    background-color: rgba(178,211,214,0.95);
+}
+#header a{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    width: 120px;
+    height: 100px;
+    line-height: 120px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+#header a:hover{
+    background: lightsteelblue;
+    color: darkred;
+}
+.input-box{
+    float: left;
+    width: 300px;
+    margin-top: 40px;
+    height: 70px;
+    margin-left: 160px;
+}
+.input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #000000;
+}
+.input:hover{
+    border: 1px solid rgba(68,87,255,0.84);
+}
+.input-box img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+    margin-left: -45px;
+}
+.input-box img:hover{
+    border: 1px solid white;
+}
+#nav{
+    width: 400px;
+    margin: 0 0 0 100px;
+    padding: 0;
+    border: 2px solid grey;
+    background: none;
+}
+#nav ul#list{
+    width: 300px;
+    height: 600px;
+}
+#nav ul#list li{
+    padding: 0;
+    width: 250px;
+    height: 100px;
+    margin-top: 50px;
+    list-style: none;
+    position: absolute;
+}
+#nav ul#list li a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 50px;
+    color: rgba(158,18,255,0.95);
+    font-weight: bold;
+}
+#nav ul#list li a:hover{
+    color: red;
+}
+#nav ul#list li#yi{
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-top: 50px;
+}
+#nav ul#list li#yi img{
+    width: 30px;
+    float: left;
+    margin-top: 15px;
+}
+#nav ul#list li#yi a{
+    margin-top: -2px;
+    cursor: pointer;
+}
+#nav ul#list li#er{
+    width: 250px;
+    height: 0px;
+    float: left;
+    margin-top: 20px;
+}
+#nav ul#list li#er img{
+    width: 30px;
+    float: left;
+    margin-top: 100px;
+}
+#nav ul#list li#er a{
+    margin-top: 83px;
+}
+#nav ul#list li#san{
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-top: 130px;
+}
+#nav ul#list li#san img{
+    width: 30px;
+    float: left;
+    margin-top: 50px;
+}
+#nav ul#list li#san a{
+    margin-top: 33px;
+}
+#nav ul#list li#si{
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-top: 180px;
+}
+#nav ul#list li#si img{
+    width: 30px;
+    float: left;
+    margin-top: 50px;
+}
+#nav ul#list li#si a{
+    margin-top: 33px;
+}
+#nav ul#list li#wu{
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-top: 240px;
+}
+#nav ul#list li#wu img{
+    width: 30px;
+    float: left;
+    margin-top: 50px;
+}
+#nav ul#list li#wu a{
+    margin-top: 33px;
+}
+#nav ul#list li#liu{
+    width: 250px;
+    height: 60px;
+    float: left;
+    margin-top: 300px;
+}
+#nav ul#list li#liu img{
+    width: 30px;
+    float: left;
+    margin-top: 50px;
+}
+#nav ul#list li#liu a{
+    margin-top: 33px;
+}
+#main{
+    width: 900px;
+    float: left;
+    margin-top: -634px;
+    margin-left: 400px;
+    border: 2px solid grey;
+    position: absolute;
+}
+#main ul#farm{
+    width: 820px;
+    height: 200px;
+}
+#main ul#farm a{
+    color: rgba(68,87,255,0.95);
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#main ul#farm a:hover{
+    color: red;
+}
+#main ul#farm .xinxi{
+    font-size: 20px;
+    color: rebeccapurple;
+    width: 100px;
+    height: 70px;
+    float: right;
+    margin-right: 400px;
+    margin-top: 40px;
+}
+footer{
+    height: 40px;
+    width: 1518px;
+    float: left;
+    position: absolute;
+    background-color: rgba(46,45,44,0.95);
+}
+footer audio{
+    margin-left: 450px;
+}
+#main ul#farm ul{
+    list-style: none;
+}
+#main ul#farm ul#name li{
+     height: 40px;
+}
+#main ul#farm ul#person li{
+    height: 40px;
+}
+#main ul#farm ul#owe li{
+    height: 40px;
+}
+#main ul#farm ul#imgs li{
+    height: 40px;
+}
+#main ul#farm ul#name{
+    float: left;
+    margin-left: 0px;
+}
+#main ul#farm ul#person{
+    float: left;
+    margin-left: 0px;
+}
+#main ul#farm ul#owe{
+    float: left;
+    margin-left: 0px;
+}
+#main ul#farm ul#imgs{
+    float: left;
+    margin-left: 0px;
+}
+#main ul#farm ul#name a{
+    font-size: 18px;
+    color: black;
+    margin-left: 0px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#main ul#farm ul#person a{
+    color: black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#main ul#farm ul#owe a{
+    color: black;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
